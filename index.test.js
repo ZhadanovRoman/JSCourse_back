@@ -3,7 +3,7 @@ const { unlinkSync, writeFileSync } = require('fs');
 const Axios = require('axios');
 const { describe, it, expect, beforeAll, beforeEach, afterAll } = require('@jest/globals');
 process.env.DB_FILE = require('path').resolve(process.cwd(), 'test-db.json');
-process.env.PORT = 3000;
+process.env.PORT = 5000;
 process.env.NODE_ENV = 'test';
 
 const axios = Axios.create({
