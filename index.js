@@ -231,7 +231,7 @@ module.exports = createServer(async (req, res) => {
       res.statusCode = 500;
       res.end(JSON.stringify({ message: 'Server Error' }));
       console.error(err);
-    }
+    }св
   }
 })
   // выводим инструкцию, как только сервер запустился...
