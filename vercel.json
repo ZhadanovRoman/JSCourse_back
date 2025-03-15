@@ -1,0 +1,9 @@
+{
+    "version": 2,
+    "routes": [
+      {
+        "src": "/api/(.*)",
+        "dest": "https://js-course-back-9mtnmdcbx-romans-projects-9fe0812d.vercel.app/api/$1"
+      }
+    ]
+  }
